@@ -1,0 +1,23 @@
+#dots developer files
+.DS_Store
+phpcs.xml
+composer.lock
+package-lock.json
+phpcs_report.txt
+
+# ignore node dependency directories
+/vendor
+/node_modules
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.zip
+*.js.map
+
